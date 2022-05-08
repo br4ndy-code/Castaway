@@ -30,6 +30,9 @@ nav {
   display: flex;
   justify-content: right;
 }
+.active{
+    color: #118DA8;
+}
 .nav_items {
   margin-left: 40px;
   font-size: 17px;
@@ -75,6 +78,11 @@ nav {
 #bold{
     font-weight: bold;
 }
+#line{
+  position: absolute;
+  bottom: 296px;
+    
+}
 .links{
     position: absolute;
     top: 648px;
@@ -85,6 +93,12 @@ nav {
 .links-img{
     margin-top: 16px;
     display: flex;
+    position: relative;
+}
+#brights{
+  position: absolute;
+  top: 90px;
+  left: 0.5px;
 }
 .link{
     margin-right: 17px;
