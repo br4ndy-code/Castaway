@@ -64,7 +64,7 @@ nav {
     max-width: 600px;
     display: flex;
     align-items: center;
-    
+    position: relative;
 }
 .main-text > h1{
     font-size: 70px;
@@ -74,4 +74,21 @@ nav {
 }
 #bold{
     font-weight: bold;
+}
+.links{
+    position: absolute;
+    top: 648px;
+}
+.links-text > p{
+    font-size: 15px;
+}
+.links-img{
+    margin-top: 16px;
+    display: flex;
+}
+.link{
+    margin-right: 17px;
+}
+.link:last-child{
+    margin-right: 0;
 }
