@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #191919;
+    color: #fff;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+}
+header{
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: auto;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.nav_items{
+    margin-left: 40px;
+    font-size: 17px;
+}
+.nav_items:first-child{
+    margin-left: 0;
+}
