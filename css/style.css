@@ -346,6 +346,7 @@ nav {
   background: #191919;
 }
 .rates-wrapper{
+  height: 901px;
   display: flex;
   justify-content: center;
 }
@@ -376,4 +377,39 @@ nav {
 .author{
   font-size: 24px;
   opacity: 0.7;
+}
+footer{
+  background: #191919;
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.left-links{
+  width: 45%;
+  height: 250px;
+}
+.social img{
+  margin: 23px 10px 0 0;
+}
+.right-links{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 250px;
+  line-height: 36px;
+}
+.menu nav{
+  display: flex;
+  flex-direction: column;
+}
+.info nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info{
+  width: 180px;
 }
