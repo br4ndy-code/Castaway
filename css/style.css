@@ -307,6 +307,7 @@ nav {
   padding: 20px 26px;
   width: 100%;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .subscribe__form input:nth-child(2) {
@@ -342,17 +343,12 @@ nav {
   transform: rotate(322deg);
 }
 .rates{
-  display: flex;
-  justify-content: center;
   background: #191919;
 }
 .rates-wrapper{
   display: flex;
   justify-content: center;
 }
-/* .grid{
-  height: 901px
-} */
 .grid{
   display: grid;
   grid-template-columns: 423px 423px 423px;
