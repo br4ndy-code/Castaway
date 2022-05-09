@@ -31,12 +31,16 @@ nav {
   display: flex;
   justify-content: right;
 }
-.active {
-  color: #118da8;
-}
 .nav_items {
   margin-left: 40px;
   font-size: 17px;
+}
+.nav_items a{
+  text-decoration: none;
+  color:#fff
+}
+.active a{
+  color: #118da8;
 }
 .nav_items:first-child {
   margin-left: 0;
@@ -122,6 +126,7 @@ nav {
 .episodes {
   background-color: #191919;
   padding-bottom: 260px;
+  padding-top: 93px;
 }
 
 .episodes__header {
@@ -404,6 +409,10 @@ footer{
 .menu nav{
   display: flex;
   flex-direction: column;
+}
+.footer-menu a, .footer-info a{
+  text-decoration: none;
+  color: #fff;
 }
 .info nav{
   display: flex;
