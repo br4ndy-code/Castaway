@@ -422,3 +422,37 @@ footer{
 .footer-info{
   width: 180px;
 }
+@media (max-width:1366px){
+  .container{
+    max-width: 1300px;
+  }
+  .main-text > h1{
+    font-size: 65px;
+    padding-left: 61px;
+    width: 550px;
+  }
+  #brights{
+    left: -25px;
+  }
+  #line, .links{
+    left: 61px;
+  }
+  .episodes__title, .title{
+    font-size: 55px;
+  }
+  .episodes, .person, .subscribe{
+    padding-bottom: 120px;
+  }
+  .grid{
+    grid-template-rows: 321px 321px 321px;
+  }
+  .comments{
+    height: 321px
+  }
+  .comment > p{
+    font-size: 33px;
+  }
+  .rates-wrapper{
+    height: 770px;
+  }
+}
