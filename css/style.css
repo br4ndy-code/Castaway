@@ -389,6 +389,7 @@ footer{
 .footer-wrapper{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 .left-links{
   width: 45%;
@@ -421,8 +422,16 @@ footer{
 
 .footer-info{
   width: 180px;
+} 
+@media (min-width: 1920px){
+  a, .button, .above{
+    font-size: 20px;
+  }
+  .links-text > p{
+    font-size: 20px;
+  }
 }
-@media (max-width:1366px){
+@media (min-width:1366px){
   .container{
     max-width: 1300px;
   }
@@ -454,5 +463,59 @@ footer{
   }
   .rates-wrapper{
     height: 770px;
+  }
+  .footer-wrapper{
+    padding-bottom: 50px;
+  }
+}
+@media (min-width:1280px){
+  .container{
+    max-width: 1220px;
+  }
+  .main-text > h1{
+    font-size: 55px;
+    padding-left: 105px;
+    width: 500px;
+  }
+  #brights{
+    left: -25px;
+  }
+  #line, .links{
+    left: 95px;
+  }
+  .episodes__title, .title{
+    font-size: 45px;
+  }
+  .episodes{
+    padding-top: 60px;
+  }
+  .episodes, .person, .subscribe{
+    padding-bottom: 80px;
+  }
+  .subscribe__form input{
+    width: 80%;
+  }
+  .grid{
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 318px 318px 318px;
+  }
+  .comments{
+    height: 321px;
+    width: 380px;
+  }
+  .comment > p{
+    font-size: 29px;
+  }
+  .author{
+    font-size: 20px;
+  }
+  .rates-wrapper{
+    height: 750px;
+  }
+  .footer-wrapper{
+    padding-bottom: 45px;
+  }
+  .right-links{
+    margin-right: 100px;
   }
 }
