@@ -519,7 +519,7 @@ footer{
     margin-right: 100px;
   }
 }
-@media(max-width:1024px){
+@media(min-width:1024px){
   .container{
     max-width: 975px;
   }
@@ -604,3 +604,9 @@ footer{
     padding-bottom: 5px;
   }
 }
+
+
+
+
+
+
