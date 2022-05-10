@@ -550,4 +550,57 @@ footer{
     bottom: 320px;
     left: 480px;
   }
+  .episod__img{
+    height: 365px;
+  }
+  .episod__img img{
+    height: 100%;
+  }
+  .above{
+    margin-top: 18px;
+  }
+  .episodes__title, .title{
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .descr{
+    font-size: 17px;
+  }
+  .person__img{
+    height: 420px;
+  }
+  .subscribe__wrapper{
+    padding: 40px;
+  }
+  .comments {
+    height: 300px;
+    width: 318px;
+  }
+  .grid {
+    grid-template-columns: 318px 318px 318px;
+    grid-template-rows: 300px 300px 300px;
+  }
+  .comment > p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .content{
+    margin: 48px;
+  }
+  .author {
+    font-size: 17px;
+  }
+  .rates-wrapper{
+    height: 700px;
+  }
+  .left-links{
+    width: 40%;
+  }
+  .right-links{
+    width: 60%;
+    margin-right: 0;
+  }
+  .footer-wrapper{
+    padding-bottom: 5px;
+  }
 }
