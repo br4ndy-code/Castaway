@@ -45,6 +45,9 @@ nav {
 .nav_items:first-child {
   margin-left: 0;
 }
+
+/* Main */
+
 .main-promo {
   display: flex;
   justify-content: center;
@@ -111,6 +114,8 @@ nav {
 .link:last-child {
   margin-right: 0;
 }
+
+/* Episods */
 
 .button {
   background: #118da8;
@@ -209,6 +214,8 @@ nav {
   width: 208px;
 }
 
+/* Person block */
+
 .person {
   background-color: #191919;
   padding-bottom: 201px;
@@ -271,6 +278,8 @@ nav {
   top: 58px;
   right: 16px;
 }
+
+/* Subscribe */
 
 .subscribe {
   background-color: #191919;
@@ -347,7 +356,10 @@ nav {
   left: -13px;
   transform: rotate(322deg);
 }
-.rates {
+
+/* Rates */
+
+.rates{
   background: #191919;
 }
 .rates-wrapper {
@@ -382,12 +394,16 @@ nav {
   font-size: 24px;
   opacity: 0.7;
 }
-footer {
+
+/* Footer */
+
+footer{
   background: #191919;
 }
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 .left-links {
   width: 45%;
@@ -418,7 +434,214 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-.footer-info {
+.footer-info{
   width: 180px;
+} 
+@media (min-width: 1920px){
+  a, .button, .above{
+    font-size: 20px;
+  }
+  .links-text > p{
+    font-size: 20px;
+  }
 }
+@media (min-width:1366px){
+  .container{
+    max-width: 1300px;
+  }
+  .main-text > h1{
+    font-size: 65px;
+    padding-left: 61px;
+    width: 550px;
+  }
+  #brights{
+    left: -25px;
+  }
+  #line, .links{
+    left: 61px;
+  }
+  .episodes__title, .title{
+    font-size: 55px;
+  }
+  .episodes, .person, .subscribe{
+    padding-bottom: 120px;
+  }
+  .grid{
+    grid-template-rows: 321px 321px 321px;
+  }
+  .comments{
+    height: 321px
+  }
+  .comment > p{
+    font-size: 33px;
+  }
+  .rates-wrapper{
+    height: 770px;
+  }
+  .footer-wrapper{
+    padding-bottom: 50px;
+  }
+}
+@media (min-width:1280px){
+  .container{
+    max-width: 1220px;
+  }
+  .main-text > h1{
+    font-size: 55px;
+    padding-left: 105px;
+    width: 500px;
+  }
+  #brights{
+    left: -25px;
+  }
+  #line, .links{
+    left: 95px;
+  }
+  .episodes__title, .title{
+    font-size: 45px;
+  }
+  .episodes{
+    padding-top: 60px;
+  }
+  .episodes, .person, .subscribe{
+    padding-bottom: 80px;
+  }
+  .subscribe__form input{
+    width: 80%;
+  }
+  .grid{
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 318px 318px 318px;
+  }
+  .comments{
+    height: 321px;
+    width: 380px;
+  }
+  .comment > p{
+    font-size: 29px;
+  }
+  .author{
+    font-size: 20px;
+  }
+  .rates-wrapper{
+    height: 750px;
+  }
+  .footer-wrapper{
+    padding-bottom: 45px;
+  }
+  .right-links{
+    margin-right: 100px;
+  }
+}
+@media(max-width:1280px){
+  .container{
+    max-width: 975px;
+  }
+  .main-img{
+    display: none;
+  }
+  .main-text{
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: none;
+    position: static;
+  }
+  .main-text > h1{
+    width: 330px;
+    padding: 0;
+  }
+  .promo-wrapper{
+    height: 590px;
+  }
+  .links{
+    position: static;
+    margin-top: 50px;
+  }
+  #line{
+    bottom: 320px;
+    left: 480px;
+  }
+  .episod__img{
+    height: 365px;
+  }
+  .episod__img img{
+    height: 100%;
+  }
+  .above{
+    margin-top: 18px;
+  }
+  .episodes__title, .title{
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .descr{
+    font-size: 17px;
+  }
+  .person__img{
+    height: 420px;
+  }
+  .subscribe__wrapper{
+    padding: 40px;
+  }
+  .comments {
+    height: 300px;
+    width: 318px;
+  }
+  .grid {
+    grid-template-columns: 318px 318px 318px;
+    grid-template-rows: 300px 300px 300px;
+  }
+  .comment > p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .content{
+    margin: 48px;
+  }
+  .author {
+    font-size: 17px;
+  }
+  .rates-wrapper{
+    height: 700px;
+  }
+  .left-links{
+    width: 40%;
+  }
+  .right-links{
+    width: 60%;
+    margin-right: 0;
+  }
+  .footer-wrapper{
+    padding-bottom: 5px;
+  }
+}
+@media(max-width: 997px){
+  .container{
+    width: 925px;
+  }
+  .episodes, .person, .subscribe{
+    padding-bottom: 120px;
+  }
+  .comments {
+    height: 300px;
+    width: 265px;
+  }
+  .grid {
+    grid-template-columns: 265px 265px 265px;
+    grid-template-rows: 300px 300px 300px;
+  }
+  .content{
+    margin: 45px;
+  }
+  .comment > p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+
+
+
